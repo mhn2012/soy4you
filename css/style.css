@@ -1,0 +1,386 @@
+@charset "utf-8";@font-face{font-family:Butterfly;src:url('../font/dkbutterflyball.woff');src:url('../font/dkbutterflyball.eot');src:url('../font/dkbutterflyball.svg');src:url('../font/dkbutterflyball.otf');src:url('../font/dkbutterflyball.ttf');}
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video{margin:0;padding:0;border:0;font-size:100%;vertical-align:baseline;}
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section{display:block;}
+body{line-height:1;}
+ol, ul{list-style:none;}
+blockquote, q{quotes:none;}
+blockquote:before, blockquote:after,
+q:before, q:after{content:'';content:none;}
+table{border-collapse:collapse;border-spacing:0;}
+html{height:100%;}
+body{height:100%;background:#0855cd;background:-webkit-linear-gradient(#0855cd, #adeafe);background:-o-linear-gradient(#0855cd, #adeafe);background:-moz-linear-gradient(#0855cd, #adeafe);background:linear-gradient(#0855cd, #adeafe);background-size:cover;background-repeat:no-repeat;background-attachment:fixed;margin-top:70px;overflow-z:hidden;}
+p{font-family:'Montserrat', sans-serif;font-size:1.5 em;color:white;margin:12.5px;padding:12.5px;}
+.headline{font-family:Butterfly;font-size:2.5em;color:#000;}
+hr{width:100%;}
+.navbar-default{background-color:#0D47A1;border:none;}
+.navbar-default .navbar-nav>li>a{color:white;font-family:Butterfly;}
+#sun{width:15%;position:absolute;}
+#logo{width:60%;}
+#logoresponsive{width:50%;}
+#animationsfilm{width:50%;height:40%;}
+#cloud{height:200px;width:200px;position:absolute;left:1600px;}
+#baeredygtighed{margin-top:-80px;}
+.baeredygtighedsbilleder{height:140px;width:140px;}
+.form-signin{max-width:500px;padding:19px 29px 29px;margin:0 auto;margin-top:90px;font-family:Montserrat;font-weight:lighter;border-color:#dfdfdf;border-width:1px;border-style:solid;display:block;position:relative;box-shadow:1px 3px 3px rgba(0, 0, 0, 0.1);background:white;}
+.form-signin input[type=text],
+.form-signin input[type=email]{color:black !important;display:block;margin-bottom:20px;width:100%;box-sizing:border-box;border-width:0 0 2px 0;border-color:#f1f1f1;background:#f9f9f9;outline:none;padding:15px 0 15px 10px;font-size:15px;-webkit-transition:all ease-in-out 0.3s;transition:all ease-in-out 0.3s;}
+input[type=text]:focus,
+input[type=email]:focus{background:#66aae9;border-color:#4e75c0;color:black !important;}
+.signin-form{margin-top:30px;}
+#btn-submit{border-width:0;background:#4e75c0;color:white;text-transform:uppercase;padding:12px 24px;font-size:14px;margin-top:20px;outline:none;outline:0px;letter-spacing:1px;-webkit-transition:all ease-in-out 0.2s;transition:all ease-in-out 0.2s;}
+.flower{height:30%;width:30%;}
+#flowerleft{top:180px;left:320px;position:relative;}
+#flowercenter{top:70px;position:relative;}
+#flowerright{top:200px;right:400px;position:relative;}
+#facebook{width:150px;height:150px;left:145px;top:95px;z-index:1;position:relative;-ms-transform:rotate(-15deg);-webkit-transform:rotate(-15deg);transform:rotate(-15deg);}
+#instagram{width:150px;height:150px;right:-15px;top:115px;z-index:1;position:relative;-ms-transform:rotate(-15deg);-webkit-transform:rotate(-15deg);transform:rotate(-15deg);}
+#youtube{width:150px;height:150px;font-size:6em;right:-240px;top:140px;z-index:1;position:relative;-ms-transform:rotate(15deg);-webkit-transform:rotate(15deg);transform:rotate(15deg);}
+#youtube.img-circle{width:1.2em;height:1.2em;}
+.rundcirkel{width:42px;height:42px;background:white;}
+.bakker{height:100%;width:100%;}
+#produkter{margin-top:100px;}
+#produkterarticle{margin-top:100px;}
+.modalbillede{width:50%;height:50%;}
+.modalproduktbilleder{width:100%;height:50%;}
+.modaltext{color:black;}
+#soyabitesModal{margin-top:50px;}
+.modal-backdrop{z-index:1;}
+#myCarousel{height:800px;top:100px;z-index:99;}
+.carousel-indicators{display:none;}
+.carousel-control.left{background-image:none;color:black;}
+.carousel-control.right{background-image:none;color:black;}
+#bod{height:900px;widtH:100%;position:absolute;z-index:1;}
+.produktbillede{width:20%;height:20%;margin-top:60px;cursor:pointer;}
+.carousel-caption{display:none;}
+.butikker{height:10%;width:13%;position:relative;top:450px;-ms-transform:rotate(-30deg);-webkit-transform:rotate(-30deg);transform:rotate(-30deg);}
+#bilka{left:730px;top:190px;z-index:99;}
+#foetex{z-index:99;left:770px;top:190px;}
+#meny{left:810px;top:190px;z-index:99;}
+#rema{left:850px;top:190px;z-index:99;}
+#backgroundhills{height:100%;width:100%;margin-top:-245px;}
+#diyfilm{width:50%;height:40%;margin-top:30px;}
+#moviesection{margin-top:250px;}
+.checkmark{font-size:7em !important;color:#5fd35f;}
+footer{clear:both;}
+.footer{background:#0d47a1;}
+.footer a{color:white;font-family:Montserrat;}
+.footer a:hover{color:white;background:#0d47a1 !important;}
+.arrowuptext{font-size:0.5em;}
+@media only screen and (min-width:320px)
+and (max-width:359px){.navbar-default .navbar-toggle{border:none;}
+.navbar-default .navbar-toggle .icon-bar{background-color:white;}
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover{background:none;}
+#myCarousel{height:200px;top:-90px;}
+.produktbillede{height:40%;width:40%;}
+.modalproduktbilleder{width:60%;height:80%;margin-top:30px;}
+#sun{display:none;}
+#animationsfilm{width:95%;height:100%;}
+#omosarticle{margin-top:30px;}
+#traktor{display:none;}
+#cloud{display:none;}
+#backgroundhills{margin-top:0px;}
+#butikkerarticle{margin-top:40px;}
+.butikker{top:0px !important;left:0px !important;position:relative;transform:rotate(0deg);margin-top:80px;width:18%;}
+#bilka{top:31px !important;left:45px !important;}
+#foetex{left:55px !important;top:12px !important;transform:rotate(-18deg) !important;}
+#meny{left:60px !important;top:10px !important;transform:rotate(11deg) !important;}
+#rema{left:65px !important;top:17px !important;}
+.form-signin{margin-top:0px;}
+.g-recaptcha{display:none;}
+.rc-anchor-normal{width:75% !important;}
+#flowerleft{display:none;}
+#flowercenter{display:none;}
+#flowerright{display:none;}
+#moviesection{margin-top:80px;}
+#diyfilm{height:95%;width:95%;}
+#socialsection{margin-top:30px;}
+#facebook{width:100%;left:0px !important;top:0px !important;margin-top:30px;transform:rotate(0deg);}
+#instagram{left:0px !important;top:0px !important;margin-top:30px;transform:rotate(0deg);width:100%;}
+#youtube{left:0px !important;top:0px !important;margin-top:30px;transform:rotate(0deg);width:100%;}
+.bakker{margin-top:40px;}
+}
+@media only screen
+and (min-width:360px)
+and (max-width:399px){#logoresponsive{width:60%;}
+.navbar-default .navbar-toggle{border:none;}
+.navbar-default .navbar-toggle .icon-bar{background-color:white;}
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover{background:none;}
+#myCarousel{height:200px;top:-90px;}
+.produktbillede{height:40%;width:40%;}
+.modalproduktbilleder{width:60%;height:80%;margin-top:30px;}
+#sun{display:none;}
+#animationsfilm{width:95%;height:100%;}
+#omosarticle{margin-top:30px;}
+#traktor{display:none;}
+#cloud{display:none;}
+#backgroundhills{margin-top:0px;}
+#butikkerarticle{margin-top:40px;}
+.butikker{top:0px !important;left:0px !important;position:relative;transform:rotate(0deg);margin-top:80px;width:18%;}
+#bilka{top:35px !important;left:45px !important;}
+#foetex{left:55px !important;top:15px !important;transform:rotate(-22deg) !important;}
+#meny{left:60px !important;top:10px !important;transform:rotate(11deg) !important;}
+#rema{left:65px !important;top:17px !important;}
+.form-signin{margin-top:0px;}
+.g-recaptcha{display:none;}
+.rc-anchor-normal{width:75% !important;}
+#flowerleft{display:none;}
+#flowercenter{display:none;}
+#flowerright{display:none;}
+#moviesection{margin-top:80px;}
+#diyfilm{height:95%;width:95%;}
+#socialsection{margin-top:30px;}
+#facebook{width:100%;left:0px !important;top:0px !important;margin-top:30px;transform:rotate(0deg);}
+#instagram{left:0px !important;top:0px !important;margin-top:30px;transform:rotate(0deg);width:100%;}
+#youtube{left:0px !important;top:0px !important;margin-top:30px;transform:rotate(0deg);width:100%;}
+.bakker{margin-top:40px;}
+}
+@media only screen
+and (min-width:400px)
+and (max-width:479px){#logoresponsive{width:60%;}
+.navbar-default .navbar-toggle{border:none;}
+.navbar-default .navbar-toggle .icon-bar{background-color:white;}
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover{background:none;}
+#myCarousel{height:200px;top:-90px;}
+.produktbillede{height:40%;width:40%;}
+.modalproduktbilleder{width:60%;height:80%;margin-top:30px;}
+#sun{display:none;}
+#animationsfilm{width:95%;height:100%;margin-top:90px;}
+#omosarticle{margin-top:30px;}
+#traktor{display:none;}
+#cloud{display:none;}
+#backgroundhills{margin-top:0px;}
+#butikkerarticle{margin-top:40px;}
+.butikker{top:0px !important;left:0px !important;position:relative;transform:rotate(0deg);margin-top:80px;width:18%;}
+#bilka{top:41px !important;left:48px !important;}
+#foetex{left:64px !important;top:17px !important;transform:rotate(-20deg) !important;}
+#meny{left:75px !important;top:10px !important;transform:rotate(8deg) !important;}
+#rema{left:84px !important;top:21px !important;}
+.form-signin{margin-top:0px;}
+.g-recaptcha{display:none;}
+.rc-anchor-normal{width:75% !important;}
+#flowerleft{display:none;}
+#flowercenter{display:none;}
+#flowerright{display:none;}
+#moviesection{margin-top:80px;}
+#diyfilm{height:95%;width:95%;}
+#socialsection{margin-top:30px;}
+#facebook{width:100%;left:0px !important;top:0px !important;margin-top:30px;transform:rotate(0deg);}
+#instagram{left:0px !important;top:0px !important;margin-top:30px;transform:rotate(0deg);width:100%;}
+#youtube{left:0px !important;top:0px !important;margin-top:30px;transform:rotate(0deg);width:100%;}
+.bakker{margin-top:40px;}
+}
+@media only screen and (min-width:600px)
+and (max-width:767px){.navbar-default .navbar-toggle{border:none;}
+.navbar-default .navbar-toggle .icon-bar{background-color:white;}
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover{background:none;}
+#sun{display:none;}
+#animationsfilm{width:95%;height:100%;margin-top:90px;}
+#omosarticle{margin-top:30px;}
+#traktor{display:none;}
+#cloud{display:none;}
+#backgroundhills{margin-top:0px;}
+#butikkerarticle{margin-top:40px;}
+.butikker{top:0px !important;left:0px !important;position:relative;transform:rotate(0deg);margin-top:80px;width:18%;}
+#bilka{top:59px !important;left:75px !important;}
+#foetex{left:95px !important;top:24px !important;transform:rotate(-22deg) !important;}
+#meny{left:115px !important;top:16px !important;transform:rotate(10deg) !important;}
+#rema{left:128px !important;top:30px !important;}
+.form-signin{margin-top:0px;}
+.g-recaptcha{display:none;}
+.rc-anchor-normal{width:75% !important;}
+#flowerleft{display:none;}
+#flowercenter{display:none;}
+#flowerright{display:none;}
+#moviesection{margin-top:80px;}
+#diyfilm{height:95%;width:95%;}
+#socialsection{margin-top:30px;}
+#facebook{width:100%;left:0px !important;top:0px !important;margin-top:30px;transform:rotate(0deg);}
+#instagram{left:0px !important;top:0px !important;margin-top:30px;transform:rotate(0deg);width:100%;}
+#youtube{left:0px !important;top:0px !important;margin-top:30px;transform:rotate(0deg);width:100%;}
+.bakker{margin-top:40px;}
+}
+@media only screen and (min-width:768px)
+and (max-width:991px){.navbar-default .navbar-toggle{border:none;}
+.navbar-default .navbar-toggle .icon-bar{background-color:white;}
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover{background:none;}
+#produkter{margin-top:150px;}
+.produktbillede{width:30%;}
+.modalproduktbilleder{height:50%;width:50%;margin-top:30px;}
+#sun{display:none;}
+#animationsfilm{width:95%;height:100%;margin-top:150px;}
+#omosarticle{margin-top:30px;}
+#traktor{display:none;}
+#cloud{display:none;}
+#backgroundhills{margin-top:0px;}
+#butikkerarticle{margin-top:40px;}
+.butikker{top:0px !important;left:0px !important;position:relative;transform:rotate(0deg);margin-top:80px;width:18%;}
+#bilka{top:80px !important;left:83px !important;}
+#foetex{left:115px !important;top:36px !important;transform:rotate(-24deg) !important;}
+#meny{left:155px !important;top:23px !important;transform:rotate(10deg) !important;}
+#rema{left:168px !important;top:43px !important;}
+.form-signin{margin-top:0px;}
+.g-recaptcha{display:none;}
+.rc-anchor-normal{width:75% !important;}
+#flowerleft{display:none;}
+#flowercenter{display:none;}
+#flowerright{display:none;}
+#moviesection{margin-top:80px;}
+#diyfilm{height:95%;width:95%;}
+#socialsection{margin-top:30px;}
+#facebook{width:100%;left:0px !important;top:0px !important;margin-top:30px;transform:rotate(0deg);}
+#instagram{left:0px !important;top:0px !important;margin-top:30px;transform:rotate(0deg);width:100%;}
+#youtube{left:0px !important;top:0px !important;margin-top:30px;transform:rotate(0deg);width:100%;}
+.bakker{margin-top:40px;}
+}
+@media only screen and (min-width:1024px)
+and (max-width:1025px){.navbar-default .navbar-toggle{border:none;}
+.navbar-default .navbar-toggle .icon-bar{background-color:white;}
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover{background:none;}
+.produktbillede{width:25%;}
+.modalproduktbilleder{height:50%;width:50%;margin-top:30px;}
+#sun{top:60px;}
+#animationsfilm{width:95%;height:100%;margin-top:240px;}
+#omosarticle{margin-top:10px;}
+#traktor{top:140px;}
+#cloud{display:none;}
+#backgroundhills{margin-top:0px;}
+#butikkerarticle{margin-top:40px;}
+.butikker{top:0px !important;left:0px !important;position:relative;transform:rotate(-30deg);margin-top:80px;width:15%;}
+#bilka{top:243px !important;left:390px !important;}
+#foetex{left:380px !important;top:245px !important;}
+#meny{left:345px !important;top:250px !important;}
+#rema{left:370px !important;top:253px !important;}
+.form-signin{margin-top:0px;}
+.g-recaptcha{display:none;}
+.rc-anchor-normal{width:75% !important;}
+#flowerleft{display:none;}
+#flowercenter{display:none;}
+#flowerright{display:none;}
+#moviesection{margin-top:80px;}
+#diyfilm{height:95%;width:95%;}
+#socialsection{margin-top:30px;}
+#facebook{width:100%;left:0px !important;top:0px !important;margin-top:30px;transform:rotate(0deg);}
+#instagram{left:0px !important;top:0px !important;margin-top:30px;transform:rotate(0deg);width:100%;}
+#youtube{left:0px !important;top:0px !important;margin-top:30px;transform:rotate(0deg);width:100%;}
+.bakker{margin-top:40px;}
+}
+@media only screen and (min-width:992px)
+and (max-width:1199px){}
+@media only screen and (min-width:1200px)
+and (max-width:1279px){#sun{top:60px;}
+#home{margin-top:130px;}
+#omosarticle{margin-top:30px;}
+#baeredygtighedarticle{margin-top:120px;}
+#cloud{left:1040px;}
+#butikkerarticle{margin-top:180px;}
+#traktor{width:95%;top:-60px;}
+#bilka{left:480px;top:60px;}
+#foetex{left:500px;top:60px;}
+#meny{left:520px;top:70px;}
+#rema{left:540px;top:60px;}
+#socialsection{margin-top:80px;}
+#flowerleft{top:160px;}
+#facebook{height:125px;width:125px;left:190px;top:80px;}
+#flowercenter{top:50px;right:-10px;}
+#youtube{height:125px;width:125px;right:-150px;top:100px;}
+#flowerright{right:320px;top:170px;}
+#instagram{height:125px;width:125px;right:70px;top:90px;}
+}
+@media only screen and (min-width:1280px)
+and (max-width:1365px){#sun{top:60px;}
+#home{margin-top:130px;}
+#omosarticle{margin-top:30px;}
+#baeredygtighedarticle{margin-top:120px;}
+#cloud{left:1040px;}
+#butikkerarticle{margin-top:180px;}
+#traktor{width:95%;top:-60px;}
+#bilka{left:480px;top:60px;}
+#foetex{left:500px;top:60px;}
+#meny{left:520px;top:70px;}
+#rema{left:540px;top:60px;}
+#socialsection{margin-top:80px;}
+#flowerleft{top:160px;}
+#facebook{height:125px;width:125px;left:190px;top:80px;}
+#flowercenter{top:50px;right:-10px;}
+#youtube{height:125px;width:125px;right:-150px;top:100px;}
+#flowerright{right:320px;top:170px;}
+#instagram{height:125px;width:125px;right:70px;top:90px;}
+}
+@media only screen and (min-width:1366px)
+and (max-width:1439px){}
+@media only screen and (min-width:1440px)
+and (max-width:1679px){#sun{top:60px;}
+#home{margin-top:130px;}
+#omosarticle{margin-top:30px;}
+#baeredygtighedarticle{margin-top:120px;}
+#cloud{left:1200px;}
+#butikkerarticle{margin-top:250px;}
+#traktor{width:95%;top:-60px;}
+#bilka{left:525px;top:85px;}
+#foetex{left:550px;top:90px;;}
+#meny{left:600px;top:100px;}
+#rema{left:630px;top:85px;}
+.sigin-form{margin-top:50px;}
+#socialsection{margin-top:80px;}
+#flowerleft{top:160px;}
+#facebook{height:125px;width:125px;left:180px;top:90px;}
+#flowercenter{top:50px;right:-10px;}
+#youtube{height:125px;width:125px;right:-175px;top:110px;}
+#flowerright{right:320px;top:170px;}
+#instagram{height:125px;width:125px;right:25px;top:100px;}
+}
+@media only screen and (min-width:1680px)
+and (max-width:1919px){#sun{top:60px;}
+#home{margin-top:130px;}
+#omosarticle{margin-top:30px;}
+#baeredygtighedarticle{margin-top:120px;}
+#cloud{left:1400px;}
+#butikkerarticle{margin-top:200px;}
+#traktor{width:95%;top:0px;}
+#bilka{left:610px;top:165px;}
+#foetex{left:650px;top:170px;}
+#meny{left:700px;top:180px;}
+#rema{left:750px;top:160px;}
+.sigin-form{margin-top:50px;}
+#socialsection{margin-top:80px;}
+#flowerleft{top:160px;}
+#facebook{height:125px;width:125px;left:170px;top:100px;}
+#flowercenter{top:50px;right:-10px;}
+#youtube{height:125px;width:125px;right:-215px;top:120px;}
+#flowerright{right:320px;top:170px;}
+#instagram{height:125px;width:125px;right:-50px;top:110px;}
+}
+@media only screen and (min-width:2000px)
+and (max-width:3000px){#sun{top:60px;}
+#home{margin-top:130px;}
+#omosarticle{margin-top:30px;}
+#baeredygtighedarticle{margin-top:120px;}
+#cloud{left:2200px;}
+#butikkerarticle{margin-top:200px;}
+#traktor{width:95%;top:130px;}
+#bilka{left:610px;top:165px;}
+#foetex{left:650px;top:170px;}
+#meny{left:700px;top:180px;}
+#rema{left:1150px;top:380px;}
+.sigin-form{margin-top:50px;}
+#socialsection{margin-top:80px;}
+#flowerleft{top:160px;}
+#facebook{height:125px;width:125px;left:170px;top:100px;}
+#flowercenter{top:50px;right:-10px;}
+#youtube{height:125px;width:125px;right:-215px;top:120px;}
+#flowerright{right:320px;top:170px;}
+#instagram{height:125px;width:125px;right:-50px;top:110px;}
+}
